@@ -1,0 +1,97 @@
+body {
+    background-color: #D5BA98;
+    font-family: Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+}
+
+h1 {
+    font-size: 2rem;
+    
+    color: #fff;
+    margin: 1%;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: url(pexels-vanessa-loring-5965986\ \(1\).jpg);
+    background-repeat: no-repeat;
+}
+
+h1 p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+div p {
+    float: right;
+}
+
+.column {
+    width: 30%; /* Set the width for each column */
+    float: left; /* Float columns to the left */
+    margin: 1%; /* Add some margin for spacing */
+    text-align: left; /* left-align content within columns */
+    box-sizing: border-box; /* Include padding and border in the column width */
+    border: 2px solid #ccc; /* Add borders for separation (optional) */
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.column img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain image aspect ratio */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-left {
+    flex: 1; /* Grow to take available space */
+}
+
+.footer-right {
+    margin-left: 20px; /* Add some spacing between the text and logo */
+}
+
